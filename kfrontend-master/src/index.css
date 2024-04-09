@@ -1,0 +1,278 @@
+/* ./src/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: Jost;
+		font-weight: 900;
+		font-style: normal;
+		src: local("Jost"), url("@/fonts/Jost/static/Jost-Black.ttf");
+	}
+	@font-face {
+		font-family: Jost;
+		font-weight: 900;
+		font-style: italic;
+		src: local("Jost"), url("@/fonts/Jost/static/Jost-BlackItalic.ttf");
+	}
+	@font-face {
+		font-family: Jost;
+		font-weight: 800;
+		font-style: normal;
+		src: local("Jost"), url("@/fonts/Jost/static/Jost-ExtraBold.ttf");
+	}
+	@font-face {
+		font-family: Jost;
+		font-weight: 800;
+		font-style: italic;
+		src: local("Jost"), url("@/fonts/Jost/static/Jost-ExtraBoldItalic.ttf");
+	}
+	@font-face {
+		font-family: Jost;
+		font-weight: 700;
+		font-style: normal;
+		src: local("Jost"), url("@/fonts/Jost/static/Jost-Bold.ttf");
+	}
+	@font-face {
+		font-family: Jost;
+		font-weight: 700;
+		font-style: italic;
+		src: local("Jost"), url("@/fonts/Jost/static/Jost-BoldItalic.ttf");
+	}
+	@font-face {
+		font-family: Jost;
+		font-weight: 600;
+		font-style: normal;
+		src: local("Jost"), url("@/fonts/Jost/static/Jost-SemiBold.ttf");
+	}
+	@font-face {
+		font-family: Jost;
+		font-weight: 600;
+		font-style: italic;
+		src: local("Jost"), url("@/fonts/Jost/static/Jost-SemiBoldItalic.ttf");
+	}
+	@font-face {
+		font-family: Jost;
+		font-weight: 500;
+		font-style: normal;
+		src: local("Jost"), url("@/fonts/Jost/static/Jost-Medium.ttf");
+	}
+	@font-face {
+		font-family: Jost;
+		font-weight: 500;
+		font-style: italic;
+		src: local("Jost"), url("@/fonts/Jost/static/Jost-MediumItalic.ttf");
+	}
+	@font-face {
+		font-family: Jost;
+		font-weight: 400;
+		font-style: normal;
+		src: local("Jost"), url("@/fonts/Jost/static/Jost-Regular.ttf");
+	}
+	@font-face {
+		font-family: Jost;
+		font-weight: 400;
+		font-style: italic;
+		src: local("Jost"), url("@/fonts/Jost/static/Jost-Italic.ttf");
+	}
+	@font-face {
+		font-family: Jost;
+		font-weight: 300;
+		font-style: normal;
+		src: local("Jost"), url("@/fonts/Jost/static/Jost-Light.ttf");
+	}
+	@font-face {
+		font-family: Jost;
+		font-weight: 300;
+		font-style: italic;
+		src: local("Jost"), url("@/fonts/Jost/static/Jost-LightItalic.ttf");
+	}
+	@font-face {
+		font-family: Jost;
+		font-weight: 200;
+		font-style: normal;
+		src: local("Jost"), url("@/fonts/Jost/static/Jost-ExtraLight.ttf");
+	}
+	@font-face {
+		font-family: Jost;
+		font-weight: 200;
+		font-style: italic;
+		src: local("Jost"), url("@/fonts/Jost/static/Jost-ExtraLightItalic.ttf");
+	}
+	@font-face {
+		font-family: Jost;
+		font-weight: 100;
+		font-style: normal;
+		src: local("Jost"), url("@/fonts/Jost/static/Jost-Thin.ttf");
+	}
+	@font-face {
+		font-family: Jost;
+		font-weight: 100;
+		font-style: italic;
+		src: local("Jost"), url("@/fonts/Jost/static/Jost-ThinItalic.ttf");
+	}
+	/* ********** */
+	/* SEPARATION */
+	/* ********** */
+	@font-face {
+		font-family: Morganite;
+		font-weight: 900;
+		font-style: normal;
+		src: local("Morganite"), url("@/fonts/Morganite/Morganite-Black.ttf");
+	}
+	@font-face {
+		font-family: Morganite;
+		font-weight: 900;
+		font-style: italic;
+		src: local("Morganite"), url("@/fonts/Morganite/Morganite-BlackItalic.ttf");
+	}
+	@font-face {
+		font-family: Morganite;
+		font-weight: 800;
+		font-style: normal;
+		src: local("Morganite"), url("@/fonts/Morganite/Morganite-ExtraBold.ttf");
+	}
+	@font-face {
+		font-family: Morganite;
+		font-weight: 800;
+		font-style: italic;
+		src: local("Morganite"), url("@/fonts/Morganite/Morganite-ExtraBoldItalic.ttf");
+	}
+	@font-face {
+		font-family: Morganite;
+		font-weight: 700;
+		font-style: normal;
+		src: local("Morganite"), url("@/fonts/Morganite/Morganite-Bold.ttf");
+	}
+	@font-face {
+		font-family: Morganite;
+		font-weight: 700;
+		font-style: italic;
+		src: local("Morganite"), url("@/fonts/Morganite/Morganite-BoldItalic.ttf");
+	}
+	@font-face {
+		font-family: Morganite;
+		font-weight: 600;
+		font-style: normal;
+		src: local("Morganite"), url("@/fonts/Morganite/Morganite-SemiBold.ttf");
+	}
+	@font-face {
+		font-family: Morganite;
+		font-weight: 600;
+		font-style: italic;
+		src: local("Morganite"), url("@/fonts/Morganite/Morganite-SemiBoldItalic.ttf");
+	}
+	@font-face {
+		font-family: Morganite;
+		font-weight: 500;
+		font-style: normal;
+		src: local("Morganite"), url("@/fonts/Morganite/Morganite-Medium.ttf");
+	}
+	@font-face {
+		font-family: Morganite;
+		font-weight: 500;
+		font-style: italic;
+		src: local("Morganite"), url("@/fonts/Morganite/Morganite-MediumItalic.ttf");
+	}
+	@font-face {
+		font-family: Morganite;
+		font-weight: 400;
+		font-style: normal;
+		src: local("Morganite"), url("@/fonts/Morganite/Morganite-Book.ttf");
+	}
+	@font-face {
+		font-family: Morganite;
+		font-weight: 400;
+		font-style: italic;
+		src: local("Morganite"), url("@/fonts/Morganite/Morganite-BookItalic.ttf");
+	}
+	@font-face {
+		font-family: Morganite;
+		font-weight: 300;
+		font-style: normal;
+		src: local("Morganite"), url("@/fonts/Morganite/Morganite-Light.ttf");
+	}
+	@font-face {
+		font-family: Morganite;
+		font-weight: 300;
+		font-style: italic;
+		src: local("Morganite"), url("@/fonts/Morganite/Morganite-LightItalic.ttf");
+	}
+	@font-face {
+		font-family: Morganite;
+		font-weight: 200;
+		font-style: normal;
+		src: local("Morganite"), url("@/fonts/Morganite/Morganite-ExtraLight.ttf");
+	}
+	@font-face {
+		font-family: Morganite;
+		font-weight: 200;
+		font-style: italic;
+		src: local("Morganite"), url("@/fonts/Morganite/Morganite-ExtraLightItalic.ttf");
+	}
+	@font-face {
+		font-family: Morganite;
+		font-weight: 100;
+		font-style: normal;
+		src: local("Morganite"), url("@/fonts/Morganite/Morganite-Thin.ttf");
+	}
+	@font-face {
+		font-family: Morganite;
+		font-weight: 100;
+		font-style: italic;
+		src: local("Morganite"), url("@/fonts/Morganite/Morganite-ThinItalic.ttf");
+	}
+}
+
+@layer components {
+	html {
+		@apply font-jost text-base;
+	}
+	div {
+		@apply text-base;
+	}
+	.custom-input-div {
+		@apply appearance-none border-none w-full relative transition-all duration-200;
+	}
+	.custom-input-inner-div {
+		@apply bg-gray-100 text-gray-400 relative rounded-md px-5 py-3 w-full flex flex-col focus-within:outline-none focus-within:ring-primary focus-within:ring-2 focus-within:border-primary
+	}
+	.input {
+		@apply bg-gray-100 appearance-none border-none block px-5 py-3 rounded-md text-gray-400;
+	}
+	.custom-input {
+		@apply bg-inherit appearance-none border-none w-full p-0 text-black autofill:bg-none placeholder-transparent focus:outline-none focus:ring-0 pt-6;
+	}
+	.custom-input-label {
+		@apply cursor-text absolute transition-all duration-200 text-sm text-gray-800;
+	}
+	.button {
+		@apply absolute bottom-0 left-1/2 w-full -translate-x-1/2 py-2 px-4 border border-transparent rounded-md shadow-sm text-white bg-primary-400 hover:bg-primary-300 hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-300 active:bg-primary-500 select-none cursor-pointer;
+	}
+	.tooltip {
+		@apply invisible absolute p-2 rounded bg-black shadow-lg text-sm text-white left-1/2 -translate-x-1/2 min-w-max opacity-0 -mt-8 ease-in-out delay-100 duration-500;
+	}
+	.has-tooltip {
+		@apply relative;
+	}
+	.has-tooltip:hover .tooltip {
+		@apply visible z-50 opacity-100 -translate-y-4;
+	}
+	.tournament-athlete {
+		@apply bg-gray-300 p-2 text-center relative before:absolute before:w-3 before:h-full before:top-0 before:left-0 before:border before:border-black inline-flex justify-center w-full;
+	}
+	.tournament-stage {
+		@apply text-center font-medium text-xl pt-2
+	}
+	.link {
+		@apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600
+	}
+	.br {
+		@apply border border-solid border-red-500;
+	}
+	.br2 {
+		@apply br border-2;
+	}
+}

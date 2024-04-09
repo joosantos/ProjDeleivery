@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Formas Mão Vazia",
+        "third_place": true,
+        "three_points": true,
+        "rounds": false,
+        "penalties": false,
+        "order": 1,
+        "number_all_at_once": true,
+        "category_type": "One Against All"
+    },
+    {
+        "name": "Formas c/ Armas",
+        "third_place": true,
+        "three_points": true,
+        "rounds": false,
+        "penalties": false,
+        "order": 2,
+        "number_all_at_once": true,
+        "category_type": "One Against All"
+    },
+    {
+        "name": "Formas Equipa Mão Vazia",
+        "third_place": true,
+        "three_points": true,
+        "rounds": false,
+        "penalties": false,
+        "order": 3,
+        "number_all_at_once": true,
+        "category_type": "One Against All"
+    },
+    {
+        "name": "Defesa Pessoal",
+        "third_place": true,
+        "three_points": true,
+        "rounds": false,
+        "penalties": false,
+        "order": 4,
+        "number_all_at_once": false,
+        "category_type": "One Against All"
+    },
+    {
+        "name": "Rumble Kids",
+        "third_place": true,
+        "three_points":true,
+        "rounds": false,
+        "penalties": true,
+        "order": 5,
+        "number_all_at_once": false,
+        "category_type": "Tournament"
+    },
+    {
+        "name": "Semi Kempo",
+        "third_place": true,
+        "three_points": false,
+        "rounds": false,
+        "penalties": true,
+        "order": 6,
+        "number_all_at_once": false,
+        "category_type": "Tournament"
+    },
+    {
+        "name": "Light Kempo",
+        "third_place":false,
+        "three_points":true,
+        "rounds": true,
+        "penalties": true,
+        "order": 7,
+        "number_all_at_once": false,
+        "category_type": "Tournament"
+    },
+    {
+        "name": "Submission Kempo",
+        "third_place": false,
+        "three_points": false,
+        "rounds": false,
+        "order": 8,
+        "number_all_at_once": false,
+        "penalties": true,
+        "category_type": "Tournament"
+    },
+    {
+        "name": "Full Kempo",
+        "third_place": true,
+        "three_points": true,
+        "rounds": false,
+        "penalties": true,
+        "order": 9,
+        "number_all_at_once": false,
+        "category_type": "Tournament"
+    },
+    {
+        "name": "Formas Mão Vazia Adaptado",
+        "third_place": true,
+        "three_points": true,
+        "rounds": false,
+        "penalties": false,
+        "order": 10,
+        "number_all_at_once": false,
+        "category_type": "One Against All"
+    },
+    {
+        "name": "Formas c/ Armas Adaptado",
+        "third_place": true,
+        "three_points": true,
+        "rounds": false,
+        "penalties": false,
+        "order": 11,
+        "number_all_at_once": false,
+        "category_type": "One Against All"
+    },
+    {
+        "name": "Kempo Desportivo Adaptado",
+        "third_place": true,
+        "three_points": true,
+        "rounds": false,
+        "penalties": true,
+        "order": 12,
+        "number_all_at_once": false,
+        "category_type": "Tournament"
+    }
+]

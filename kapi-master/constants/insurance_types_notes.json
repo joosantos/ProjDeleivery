@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Coach",
+        "description": "Federation fee: 50.00€",
+        "fee": 50,
+        "insurance": 15.90
+    },
+    {
+        "name": "Competition Below Brown",
+        "description": "Federation fee: 35.00€",
+        "fee": 35,
+        "insurance": 15.9
+    },
+    {
+        "name": "Competition after Brown",
+        "description": "Federation fee: 50.00€",
+        "fee": 50,
+        "insurance": 15.9
+    },
+    {
+        "name": "Team",
+        "description": "Federation fee: 40.00€",
+        "fee": 40,
+        "insurance": 0
+    },
+    {
+        "name": "Ludicos",
+        "description": "Federation fee: 15.00€",
+        "fee": 15,
+        "insurance": 8.50
+    },
+    {
+        "name": "Referee",
+        "description": "Federation fee: 15.00€",
+        "fee": 35,
+        "insurance": 8.50
+    },
+    {
+        "name": "Adapted", (adaptado e kempo adaptado)
+        "description": "Federation fee: 0.00€",
+        "fee": 0,
+        "insurance": 15.90
+    },
+    {
+        "name": "Formation", (formacao)
+        "description": "Federation fee: 0.00€",
+        "fee": 0,
+        "insurance": 4.20
+    }
+]
+
+nova inscricao e direcao passar a frente

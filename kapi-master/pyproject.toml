@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "api"
+version = "0.1.0"
+description = ""
+authors = ["Miguel Jesus <miguelangeloleal@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10.12"
+alembic = "1.7.4"
+asyncpg = "0.24.0"
+fastapi = "0.103.0"
+fastapi-permissions = "0.2.7"
+FastAPI-SQLAlchemy = "0.2.1"
+psycopg2-binary = "2.9.1"
+PyJWT = "2.3.0"
+rsa = "4.7.2"
+SQLAlchemy = "2.0.10"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+python-multipart = "0.0.5"
+aiofiles = "0.7.0"
+iso3166 = "2.0.2"
+python-dotenv = "1.0.0"
+envyaml = "*"
+fastapi_jwt_auth = { git = "https://github.com/M1guelJesus/fastapi-jwt-auth.git", tag = "v0.7.3" }
+pandas = "^1.4.3"
+openpyxl = "^3.0.10"
+passlib = "^1.7.4"
+reportlab = "^3.6.12"
+pydantic = "^2.0.0"
+fastapi-mail = "^1.4.1"
+gunicorn = "^21.2.0"
+boto3 = "^1.33.4"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "2.16.0"
+black = "^23.9.1"
+isort = "^5.12.0"
+argparse = "^1.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 98

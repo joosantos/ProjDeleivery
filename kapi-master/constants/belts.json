@@ -1,0 +1,74 @@
+[
+	{
+		"name": "white",
+		"order": 1
+	},
+	{
+		"name": "white-yellow",
+		"order": 2
+	},
+	{
+		"name": "yellow",
+		"order": 3
+	},
+	{
+		"name": "yellow-orange",
+		"order": 4
+	},
+	{
+		"name": "orange",
+		"order": 5
+	},
+	{
+		"name": "orange-purple",
+		"order": 6
+	},
+	{
+		"name": "purple",
+		"order": 7
+	},
+	{
+		"name": "purple-blue",
+		"order": 8
+	},
+	{
+		"name": "blue",
+		"order": 9
+	},
+	{
+		"name": "blue-green",
+		"order": 10
+	},
+	{
+		"name": "green",
+		"order": 11
+	},
+	{
+		"name": "brown-jr",
+		"order": 12
+	},
+	{
+		"name": "brown",
+		"order": 13
+	},
+	{
+		"name": "black-jr",
+		"order": 14
+	},
+	{
+		"name": "duan-1",
+		"order": 15
+	},
+	{
+		"name": "duan-2",
+		"order": 16
+	},
+	{
+		"name": "duan-3",
+		"order": 17
+	},
+	{
+		"name": "black",
+		"order": 18
+	}
+]

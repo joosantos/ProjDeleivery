@@ -1,0 +1,1 @@
+import psycopg2\n\nprint("Attempting connection...")\ntry:\n    conn = psycopg2.connect("dbname=kapi user=postgres password=123 host=localhost")\n    print("Connection successful!")\nexcept psycopg2.Error as e:\n    print("Unable to connect to the database:", e)

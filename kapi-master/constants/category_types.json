@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Tournament",
+        "description": "A tournament with a bracket form"
+    },
+    {
+        "name": "One against all",
+        "description": "Everybody goes against everybody and the one with the best ponctuation wins"
+    },
+    {
+        "name": "Mix",
+        "description": "Start with the tournament form one against all and then the best 8 move to a tournament in a bracket form"
+    }
+]

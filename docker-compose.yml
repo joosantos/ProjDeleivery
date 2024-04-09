@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: frontend_image:latest
+    ports:
+      - "3000:3000"
+    environment:
+      # Use a placeholder for VITE_API_URL
+      - VITE_API_URL=http://placeholder:8000
+    entrypoint: /bin/sh -c "export VITE_API_URL=http://$$(getent hosts backend | awk '{ print $$1 }'):8000 && npm run dev"
+
+  backend:
+    image: backend_image:latest
+    environment:
+      # Use a placeholder for DATABASE_URL
+      - DATABASE_URL=postgres://postgres:123@placeholder:5432/kapi
+    entrypoint: /bin/sh -c "export DATABASE_URL=postgres://postgres:123@$$(getent hosts db | awk '{ print $$1 }'):5432/kapi && poetry install &&  poetry run uvicorn app:app --host 0.0.0.0 --port 8000"
+
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: kapi
+    volumes:
+      - /home/dudewat/Documents/stupid:/var/lib/postgresql/data
+      - ./dump_file.sql:/docker-entrypoint-initdb.d/db_table_setup.sql
+

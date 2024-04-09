@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Coach",
+        "description": "Insurance fee: 50.00€",
+        "fee": 50
+    },
+    {
+        "name": "Competition",
+        "description": "Insurance fee: 35.00€",
+        "fee": 35
+    },
+    {
+        "name": "Team",
+        "description": "Insurance fee: 40.00€",
+        "fee": 40
+    },
+    {
+        "name": "Ludicos",
+        "description": "Insurance fee: 15.00€",
+        "fee": 15
+    },
+    {
+        "name": "Adapted",
+        "description": "Insurance fee: 0.00€",
+        "fee": 0
+    }
+]
